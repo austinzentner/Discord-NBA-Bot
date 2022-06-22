@@ -5,7 +5,7 @@ const Canvas = require('canvas')
 const { MessageEmbed } = require('discord.js');
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"]});
 const token = 
-'OTUxMjcyNTYzNzQ3NzQ1ODMz.YilDnA.zEKXspVFAjdQgXjt6ZWZre-Fpew'
+''
 client.on('ready', () => {
     console.log('bot logged in')
 })
